@@ -10,6 +10,7 @@ import {GiD4,GiVortex} from "react-icons/gi"
 const Home: NextPage = () => {
   return (
     <div className='bg-gradient-to-t from-gray-800 via-gray-900 to-black h-full'>
+      <Head>Moni's Portfolio</Head>
       <header className="text-gray-400 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center border-b-[3px] border-gray-500 ">
           <div className="flex title-font cursor-pointer font-medium items-center text-gray-900 mb-4 md:mb-0">
