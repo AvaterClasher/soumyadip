@@ -86,17 +86,17 @@ const Home: NextPage = () => {
               <div>
                 <h3 className='text-gray-400 text-lg mt-9'>Immersive Websites</h3>
                 <div className='flex gap-4 border-slate-200 mt-3'>
-                  <button>Portfolio</button>
-                  <button>Ball game</button>
-                  <button>Portal</button>
+                  <button><a href="https://moni-laptop.vercel.app/">Portfolio</a></button>
+                  <button><a href="https://3-d-obj.vercel.app">Apple</a></button>
+                  <button>Work in Progress..</button>
                 </div>
               </div>
               <div>
                 <h3 className='text-gray-400 mt-9 text-lg'>Common Websites</h3>
                 <div className='flex gap-4 border-slate-200  mt-3'>
-                  <button>Spotify</button>
-                  <button>Google Docs</button>
-                  <button>Facebook</button>
+                  <button><a>Spotify (NA)</a></button>
+                  <button><a href="https://moni-lyart.vercel.app">Company Landing Page</a></button>
+                  <button>Work in Progress..</button>
                 </div>
               </div>
           </section>
