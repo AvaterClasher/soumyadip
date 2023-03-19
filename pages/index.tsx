@@ -65,7 +65,7 @@ const Home: NextPage = () => {
           </div>
         </header>
         <section className="ml-[120px] mt-[40px] text-gray-400">
-          <h1 className=" font-medium text-[60px] font-body uppercase bg-clip-text text-transparent bg-gradient-to-r from-pink-700 via-pink-300 to-violet-300">
+          <h1 className=" font-medium text-[60px] font-body uppercase gradient">
             Soumyadip Moni
           </h1>
           <h5 className=" font-semibold text-[22px] mt-0 tracking-widest uppercase font-body">

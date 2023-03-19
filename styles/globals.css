@@ -120,3 +120,10 @@ button:active {
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
 }
+
+
+.gradient {
+  background: linear-gradient(90deg,#35c3f3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #fed2ce 100%);
+  color: transparent;
+  background-clip: text;
+}
