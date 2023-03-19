@@ -29,23 +29,20 @@ const Home: NextPage = () => {
               </div>
             </div>
             <nav className="md:ml-auto flex gap-2 flex-wrap items-center text-base justify-center">
-              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400">
+              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400" href="https://github.com/AvaterClasher" target="_blank">
                 <BsGithub />
               </a>
-              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400">
+              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400" href="https://www.linkedin.com/in/soumyadip-moni-139105254/" target="_blank">
                 <BsLinkedin />
               </a>
-              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400">
+              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400" href="https://twitter.com/Avater004" target="_blank">
                 <BsTwitter />
               </a>
-              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400">
+              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400" href="https://avater.clasher@gmail.com" target="_blank">
                 <AiTwotoneMail />
               </a>
-              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400">
+              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400" href="https://instagram.com/soumyadip_moni" target="_blank">
                 <BsInstagram />
-              </a>
-              <a className="mr-5 text-2xl cursor-pointer hover:text-pink-400">
-                <BsReddit />
               </a>
             </nav>
             {/* <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
