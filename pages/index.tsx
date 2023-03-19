@@ -184,7 +184,7 @@ const Home: NextPage = () => {
                 <a href="https://moni-galaxy.vercel.app" target="_blank">Galaxy</a>
               </button>
               <button>
-                <a href="https://moni-portal.vercel.app">Portal</a>
+                <a href="https://moni-portal.vercel.app" target="_blank">Portal</a>
               </button>
               <button>Work in Progress..</button>
               
