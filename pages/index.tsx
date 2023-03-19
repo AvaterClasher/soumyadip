@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import {
   BsReddit,
   BsInstagram,
@@ -9,14 +8,6 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import { AiTwotoneMail } from "react-icons/ai";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaTwitch,
-  FaGithub,
-} from "react-icons/fa";
-import { GiD4, GiVortex } from "react-icons/gi";
 
 const Home: NextPage = () => {
   return (
@@ -24,8 +15,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Moni's Portfolio</title>
       </Head>
-      <div className="bg-gradient-to-t from-gray-800 via-gray-900 to-black h-full">
-        <header className="text-gray-400 body-font">
+      <div className="bg-gradient-to-t from-gray-800 via-gray-900 to-black h-full w-full">
+        <header className="text-gray-400 body-font w-full">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center border-b-[3px] border-gray-500 ">
             <div className="flex title-font cursor-pointer font-medium items-center text-gray-900 mb-4 md:mb-0">
               <div className="ml-3 text-2xl cursor-pointer">
@@ -64,7 +55,7 @@ const Home: NextPage = () => {
               </button> */}
           </div>
         </header>
-        <section className="ml-[120px] mt-[40px] text-gray-400">
+        <section className="ml-[120px] mt-[40px] text-gray-400 w-full">
           <h1 className=" font-medium text-[60px] font-body uppercase gradient">
             Soumyadip Moni
           </h1>
@@ -131,7 +122,49 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
-        <section className="ml-[120px] mt-[80px] uppercase">
+        <div className="ty">
+          <div>
+            <h2 className="text-[30px] my-7 text-gray-400">
+              Currently Learning
+            </h2>
+          </div>
+          <div className="card-display">
+            <div className="card">
+              <div className="card-content">
+                <h3 className="card-title">Node.js</h3>
+                <p className="card-subtitle">
+                  It is currently my Full-time mission to learn Node.js . The
+                  ability to run JavaScript code on the server is often used to
+                  generate dynamic web page content before the page is sent to
+                  the user's web browser.
+                </p>
+              </div>
+            </div>
+            <div className="card-n">
+              <div className="card-content">
+                <h3 className="card-title">Express.js</h3>
+                <p className="card-subtitle">
+                  I am basically learning to know more about how to use RESTful
+                  API's with Node.js .Its main features are Robust routing,High
+                  performance,HTTPS helpers (Redirection,Caching,etc.).
+                </p>
+              </div>
+            </div>
+            <div className="card-n">
+              <div className="card-content">
+                <h3 className="card-title">Three.js</h3>
+                <p className="card-subtitle">
+                  Also I am trying out WebGL and Three.js as a side
+                  project.Three.js is a cross-browser JavaScript library and
+                  application programming interface (API) used to create and
+                  display animated 3D computer graphics in a web browser using
+                  WebGL.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section className="ml-[120px] mt-[190px] uppercase">
           <div>
             <h2 className="text-[30px] my-7 text-gray-400">Projects</h2>
           </div>
@@ -144,7 +177,13 @@ const Home: NextPage = () => {
               <button>
                 <a href="https://3-d-obj.vercel.app">Apple</a>
               </button>
-              <button>Work in Progress..</button>
+              <button>
+                <a href="https://moni-game.vercel.app">Game</a>
+              </button>
+              <button>
+                <a href="https://moni-iphone.vercel.app">IPhone</a>
+              </button>
+              
             </div>
           </div>
           <div>
