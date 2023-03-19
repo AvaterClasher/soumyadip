@@ -15,8 +15,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Moni's Portfolio</title>
       </Head>
-      <div className="bg-gradient-to-t from-gray-800 via-gray-900 to-black h-full w-full">
-        <header className="text-gray-400 body-font w-full">
+      <div className="bg-gradient-to-t from-gray-800 via-gray-900 to-black h-full">
+        <header className="text-gray-400 body-font">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center border-b-[3px] border-gray-500 ">
             <div className="flex title-font cursor-pointer font-medium items-center text-gray-900 mb-4 md:mb-0">
               <div className="ml-3 text-2xl cursor-pointer">
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               </button> */}
           </div>
         </header>
-        <section className="ml-[120px] mt-[40px] text-gray-400 w-full">
+        <section className="ml-[120px] mt-[40px] text-gray-400 ">
           <h1 className=" font-medium text-[60px] font-body uppercase gradient">
             Soumyadip Moni
           </h1>
