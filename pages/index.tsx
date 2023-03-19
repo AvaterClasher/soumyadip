@@ -169,19 +169,19 @@ const Home: NextPage = () => {
             <h3 className="text-gray-400 text-lg mt-9">Immersive Websites</h3>
             <div className="flex gap-4 border-slate-200 mt-3">
               <button>
-                <a href="https://moni-laptop.vercel.app/">Portfolio</a>
+                <a href="https://moni-laptop.vercel.app/" target="_blank">Portfolio</a>
               </button>
               <button>
-                <a href="https://3-d-obj.vercel.app">Apple</a>
+                <a href="https://3-d-obj.vercel.app" target="_blank">Apple</a>
               </button>
               <button>
-                <a href="https://moni-game.vercel.app">Game</a>
+                <a href="https://moni-game.vercel.app" target="_blank">Game</a>
               </button>
               <button>
-                <a href="https://moni-iphone.vercel.app">IPhone</a>
+                <a href="https://moni-iphone.vercel.app" target="_blank">IPhone</a>
               </button>
               <button>
-                <a href="https://moni-galaxy.vercel.app">Galaxy</a>
+                <a href="https://moni-galaxy.vercel.app" target="_blank">Galaxy</a>
               </button>
               <button>
                 <a href="https://moni-portal.vercel.app">Portal</a>
