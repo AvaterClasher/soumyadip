@@ -186,6 +186,9 @@ const Home: NextPage = () => {
               <button>
                 <a href="https://moni-portal.vercel.app" target="_blank">Portal</a>
               </button>
+              <button>
+                <a href="https://moni-grace.netlify.app" target="_blank">Three Grace</a>
+              </button>
               <button>Work in Progress..</button>
               
             </div>
