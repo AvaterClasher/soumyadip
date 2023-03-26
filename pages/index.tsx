@@ -167,7 +167,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <h3 className="text-gray-400 text-lg mt-9">Immersive Websites</h3>
-            <div className="flex gap-4 border-slate-200 mt-3">
+            <div className="flex flex-wrap gap-4 border-slate-200 mt-3">
               <button>
                 <a href="https://moni-laptop.vercel.app/" target="_blank">Portfolio</a>
               </button>
@@ -193,7 +193,6 @@ const Home: NextPage = () => {
                 <a href="https://moni-world.vercel.app" target="_blank">Moni's World</a>
               </button>
               <button>Work in Progress..</button>
-              
             </div>
           </div>
           <div>
